@@ -4,7 +4,7 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 
 # Tao tieu de trang
-st.set_page_config(page_title = "Movies analysis",layout = 'centered')
+st.set_page_config(page_title = "Movies analysis",layout = 'wide')
 st.header("Interactive Dashboard")
 st.subheader("Interact with this dashboard using the widgets on the sidebar")
 
