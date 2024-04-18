@@ -12,7 +12,6 @@ st.subheader("Interact with this dashboard using the widgets on the sidebar")
 movies_data = pd.read_csv("https://raw.githubusercontent.com/nv-thang/Data-Visualization-Course/main/movies.csv")
 movies_data.info()
 movies_data.duplicated()
-movies_data.count()
 movies_data.dropna()
 
 # Tao sidebar loc du lieu tu dataset movies
